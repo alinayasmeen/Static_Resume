@@ -1,0 +1,96 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #2F4F4F;
+  background-color: #f4f4f4;
+}
+
+.resume-container {
+  width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+ 
+}
+
+header h1 {
+  font-size: 2em;
+  color: #008080;
+  margin: 0;
+  padding: 15px;
+  
+}
+
+.main-content {
+  display: flex;
+}
+
+
+.left-section {
+  width:33.3%;
+  border-right: 2px solid #008080;
+  background-color:#f4f4f4;
+  padding: 35px;
+}
+hr{
+  color: #008080 ;
+}
+.right-section {
+  width: 67.77%;
+  border-left: 2px solid #008080;
+  padding: 15px;
+  margin: 9px;
+}
+
+h3 {
+  color:black;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+h2 {
+  color:#008080;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #008080;
+  font-size: 1em;
+  margin-top: 15px;
+}
+
+p, ul {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+button {
+  background-color: #008080;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005959;
+}
